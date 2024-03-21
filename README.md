@@ -2,14 +2,16 @@
 
 Project to test symfony messenger with worker.
 
-## Start project
+
+### Start project
 
 ``` shell
 docker compose up -d
 symfony serve
 ```
+Async messages worker is automatically start with symfony server in `.symfony.local.yaml`
 
-## Stop project
+### Stop project
 ``` shell
 docker compose down
 symfony server:stop
